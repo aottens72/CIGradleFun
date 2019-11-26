@@ -44,6 +44,6 @@ public class AllCapsStringTest {
     @Test
     public void testSetter(){
         allCapsString.setCapsStr("goodbye");
-        assertEquals(allCapsString.getCapsStr(), "GOODBYE");
+        assertEquals(allCapsString.getCapsStr(), "GOODBY");
     }
 }
